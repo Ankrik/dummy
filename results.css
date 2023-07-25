@@ -1,0 +1,69 @@
+/* CSS Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.analysis {
+  text-align: center;
+}
+
+.analysis h2 {
+  margin-bottom: 20px;
+}
+
+.analysis div {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.strength {
+  background-color: #66bb6a;
+  color: #fff;
+}
+
+.weakness {
+  background-color: #ef5350;
+  color: #fff;
+}
+
+.opportunity {
+  background-color: #42a5f5;
+  color: #fff;
+}
+
+.threat {
+  background-color: #ffee58;
+  color: #000;
+}
+
+.subfield {
+  margin-bottom: 10px;
+}
+
+.response {
+  font-style: italic;
+}
+
