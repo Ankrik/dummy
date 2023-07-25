@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Files and URLs</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>App Name</h1>
+    </header>
+    <div class="description">
+      <textarea placeholder="Write the description here..."></textarea>
+    </div>
+    <div class="brand-dropdown">
+      <label for="brand-names">Brand Names:</label>
+      <select id="brand-names">
+        <option value="brand1">Brand 1</option>
+        <option value="brand2">Brand 2</option>
+        <option value="brand3">Brand 3</option>
+        <option value="other">Other</option>
+      </select>
+      <div id="other-brand" style="display:none;">
+        <input type="text" placeholder="Enter brand name">
+      </div>
+    </div>
+    <div class="upload-fields">
+      <div class="file-field">
+        <label for="upload-file">Upload File:</label>
+        <input type="file" id="upload-file">
+        <div class="uploaded-files" id="uploaded-files-file">
+          <!-- Uploaded file URLs will be shown here -->
+        </div>
+        <button class="add-file"><i class="fas fa-plus"></i></button>
+      </div>
+      <div class="url-field">
+        <label for="upload-url">Upload URL:</label>
+        <input type="text" id="upload-url" placeholder="Enter URL">
+        <div class="uploaded-files" id="uploaded-files-url">
+          <!-- Uploaded URLs will be shown here -->
+        </div>
+        <button class="add-url"><i class="fas fa-plus"></i></button>
+      </div>
+    </div>
+    <div class="submit-button">
+      <button class="submit">Submit</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
